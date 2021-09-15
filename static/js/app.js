@@ -3,7 +3,7 @@
 const tableData = data;
 
 // Reference the HTML table using d3
-var tbody = d3.select("tbody");
+let tbody = d3.select("tbody");
 
 // // Simple JavaScript console.log statement
 // function printHello() {
@@ -32,6 +32,7 @@ function buildTable(data) {
       }
     );
   });
+  console.log(tbody.html)
 }
 
 
